@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31919.166
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Template Method", "Template Method\Template Method.csproj", "{A371EF9E-3648-4786-A702-221D026EC5A2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Template Method", "Template Method\Template Method.csproj", "{A371EF9E-3648-4786-A702-221D026EC5A2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter", "Adapter\Adapter.csproj", "{0E5FF049-BFFC-49BA-80AA-F4525616CC3A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adapter", "Adapter\Adapter.csproj", "{0E5FF049-BFFC-49BA-80AA-F4525616CC3A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategy", "Strategy\Strategy.csproj", "{C63F07F9-05CE-4DFD-BF9C-4306A43FF1C3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{0E5FF049-BFFC-49BA-80AA-F4525616CC3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0E5FF049-BFFC-49BA-80AA-F4525616CC3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0E5FF049-BFFC-49BA-80AA-F4525616CC3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C63F07F9-05CE-4DFD-BF9C-4306A43FF1C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C63F07F9-05CE-4DFD-BF9C-4306A43FF1C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C63F07F9-05CE-4DFD-BF9C-4306A43FF1C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C63F07F9-05CE-4DFD-BF9C-4306A43FF1C3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
