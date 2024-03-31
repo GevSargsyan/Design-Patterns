@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Strategy", "Strategy\Strate
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Proxy", "Proxy\Proxy.csproj", "{721743FB-792C-4D50-8EA2-4ABD950824B5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder", "Builder\Builder.csproj", "{DDC6E156-6E1B-44DA-9D43-A8B9B58F2D6F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Builder", "Builder\Builder.csproj", "{DDC6E156-6E1B-44DA-9D43-A8B9B58F2D6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator", "Decorator\Decorator.csproj", "{2071E231-9E7B-41AD-B87F-ACAFE3E7CAD3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{DDC6E156-6E1B-44DA-9D43-A8B9B58F2D6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DDC6E156-6E1B-44DA-9D43-A8B9B58F2D6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DDC6E156-6E1B-44DA-9D43-A8B9B58F2D6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2071E231-9E7B-41AD-B87F-ACAFE3E7CAD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2071E231-9E7B-41AD-B87F-ACAFE3E7CAD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2071E231-9E7B-41AD-B87F-ACAFE3E7CAD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2071E231-9E7B-41AD-B87F-ACAFE3E7CAD3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
